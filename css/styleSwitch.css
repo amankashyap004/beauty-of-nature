@@ -1,0 +1,310 @@
+/* ---------------------------Switch Body---------------------- */
+.switch-body {
+    margin: 30px 70px;
+    display: grid;
+    grid-template-columns: auto 250px;
+    justify-content: stretch; 
+    gap: 20px;
+}
+
+/* ---------------------------Switch Main Body---------------------- */
+.switch-main-body {
+    background-color: rgb(238, 235, 235);
+    border-radius: 8px;
+}
+
+/* ---------------------------Switch Main Body Para---------------------- */
+.main-body-para {
+    padding: 10px 15px;
+}
+
+.main-body-para ul li {
+    list-style: none;
+}
+
+.main-body-para ul li a {
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+}
+
+.main-body-para ul li a:hover {
+    color: #598cff;
+}
+
+/* ---------------------------Switch Feature Title---------------------- */
+
+.switch-feature-title {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.switch-feature-titles-details {
+    display: flex;
+    margin: 10px 0;
+    opacity: .5;
+    font-size: 14px;
+}
+
+.switch-feature-titles-details-author {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 0;
+}
+
+.switch-feature-titles-details-author a {
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+}
+
+.switch-feature-titles-details-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch-feature-titles-details-time p {
+    margin: 0 5px;
+}
+
+/* ---------------------------Switch Main Body img ---------------------- */
+.switch-main-body-img {
+    padding: 20px;
+}
+
+.switch-main-body-img img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* --------------------------Switch Main Body Contain---------------------- */
+.switch-main-body-contain {
+    padding: 15px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #dadee7;
+}
+
+.switch-main-body-contain p {
+    margin: 20px 0;
+}
+
+/* ---------------------------switch-main-body-watch-video---------------------- */
+.switch-main-body-watch-video {
+    margin: 20px 0;
+}
+
+.switch-main-body-watch-video div p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #598cff;
+    color: white;
+    padding: 13px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* ---------------------------Switch Main Body Tags---------------------- */
+.switch-main-body-tags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+.switch-main-body-tag-active{
+    padding: 10px 15px;
+    background-color: #598cff;
+    text-decoration: none;
+    color: white;
+}
+.switch-main-body-tags ul li {
+    list-style: none;
+}
+
+.switch-main-body-tags ul li a {
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.switch-main-body-tags a:hover {
+    background-color: #598cff;
+    color: white;
+}
+
+/* ---------------------------Switch Social Meadia Sharing---------------------- */
+
+.switch-socialMidea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.switch-socialMidea a {
+    margin: 10px 3px;
+    padding: 8px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: calc(100% / 8);
+}
+
+.switch-socialMidea a:hover {
+    opacity: .9;
+}
+
+.facebook {
+    background-color: #3b5999;
+}
+
+.instagram {
+    background-color: #C13584;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.youtube {
+    background-color: #FF0000;
+}
+
+.telegram {
+    background-color: #0088cc;
+}
+
+.reddit {
+    background-color: #ff4500;
+}
+
+.linkedin {
+    background-color: #0A66C2;
+}
+
+.pinterest {
+    background-color: #E60023;
+}
+
+.envelope {
+    background-color: #888;
+}
+
+.switch-socialMidea a i {
+    color: white;
+    font-size: 20px;
+}
+
+/* ---------------------------Switch Side Bar---------------------- */
+
+/* ---------------------------Switch Side Bar SocialMidea---------------------- */
+.switch-side-bar-socialMidea {
+    background-color: #f0f1f3;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.switch-side-bar-socialMidea-para {
+    padding: 10px;
+}
+
+.switch-side-bar-socialMidea-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch-side-bar-socialMidea-icons a {
+    text-decoration: none;
+}
+
+.switch-side-bar-socialMidea-icons a img {
+    height: 60px;
+    padding: 10px;
+}
+
+/* ---------------------------Switch Side Bar Quotes---------------------- */
+.switch-side-bar-quotes {
+    background-color: #f0f1f3;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.switch-side-bar-quotes-para {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.switch-side-bar-quotes-para i {
+    margin-right: 10px
+}
+
+.switch-side-bar-quotes-conatin {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch-side-bar-quotes-conatin p {
+    padding: 8px;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #0e2e42;
+}
+
+.switch-side-bar-quotes-conatin h4 {
+    padding: 0 0 10px 0;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: bold;
+}
+
+.hr-quotes {
+    width: 70px;
+    margin: 8px 0 10px 0;
+    background-color: #E60023;
+}
+
+/* ---------------------------Switch Side Bar Top Categories---------------------- */
+.switch-side-bar-top-categories {
+    background-color: #f0f1f3;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.switch-side-bar-top-categories-para {
+    padding: 10px;
+}
+
+.switch-side-bar-top-categories-icons {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.switch-side-bar-top-categories-icons div {
+    padding: 5px 10px;
+}
+
+.switch-side-bar-top-categories-icons div a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.switch-side-bar-top-categories-icons div a:hover {
+    color: #1DA1F2;
+}

@@ -1,0 +1,28 @@
+/* ---------------------------Switch Body---------------------- */
+
+/* ---------------------------Media creen 900px---------------------- */
+
+/* ---------------------------Media creen 800px---------------------- */
+@media only screen and (max-width: 800px) {
+    .switch-body {
+        margin: 30px 30px;
+        grid-template-columns: auto;
+    }
+    .switch-side-bar-socialMidea {
+        display:none;
+    }
+}
+/* ---------------------------Media creen 650px---------------------- */
+
+/* ---------------------------Media creen 500px---------------------- */
+@media only screen and (max-width: 500px) {
+    .switch-body {
+        margin: 20px 5px;
+    }
+}
+/* ---------------------------Media creen 350px---------------------- */
+@media only screen and (max-width: 350px) {
+    .switch-body {
+        margin: 10px 0;
+    }
+}

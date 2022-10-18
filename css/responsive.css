@@ -1,0 +1,334 @@
+/* ---------------------------Media creen 900px---------------------- */
+@media only screen and (max-width: 900px) {
+
+  /* ---------------------------Home---------------------- */
+  .home-search-bar {
+    width: 55vw;
+    padding-left: 6px;
+  }
+
+  /* ---------------------------Feature Post---------------------- */
+  .feature-image {
+    width: 55%;
+  }
+
+  .feature-title {
+    width: calc(45% - 40px);
+    padding: 10px;
+  }
+
+  /* ---------------------------Footer---------------------- */
+  .lower-footer {
+    flex-direction: column-reverse;
+    height: 80px;
+    justify-content: center;
+  }
+}
+
+/* ---------------------------Media creen 805px---------------------- */
+
+@media only screen and (max-width: 805px) {
+
+  /* ---------------------------Header---------------------- */
+  .header {
+    padding: 0 30px;
+  }
+
+  .header-icons {
+    display: none;
+  }
+
+  /* ---------------------------Navigation Bar---------------------- */
+  .navBar {
+    padding: 0 30px;
+  }
+
+  /* ---------------------------Home---------------------- */
+
+  .home-search-bar {
+    width: 65vw;
+  }
+
+  /* ---------------------------Feature Post---------------------- */
+  .feature {
+    margin: 25px 30px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .feature-image {
+    width: 100%;
+  }
+
+  .feature-title {
+    width: 100%;
+    margin: 5px 0;
+    padding: 15px 0;
+  }
+
+  /* ---------------------------Recent Post---------------------- */
+  .recent-post {
+    margin: 25px 30px;
+    width: calc(100% - 60px);
+  }
+
+  .recent-post-container {
+    grid-template-columns: auto auto auto;
+  }
+
+  .container-box {
+    margin: 20px 10px;
+    width: 90%;
+    justify-content: flex-start;
+  }
+
+  /* ---------------------------Footer---------------------- */
+  .lower-footer {
+    padding: 0 30px;
+  }
+
+  .upper-footer {
+    padding: 0 30px;
+  }
+}
+
+/* ---------------------------Media creen 650px---------------------- */
+@media only screen and (max-width: 650px) {
+
+  /* ---------------------------Header---------------------- */
+  .header {
+    height: 50px;
+  }
+
+  .logo a img {
+    height: 40px;
+  }
+
+  .searchBar form input {
+    height: 50px;
+    width: 50vw;
+  }
+
+  .searchBar button {
+    height: 50px;
+  }
+
+  /* ---------------------------Navigation Bar---------------------- */
+  .navBar {
+    display: none;
+  }
+
+  /* ---------------------------Home---------------------- */
+  .home {
+    height: 240px;
+  }
+
+  .home::before {
+    height: 300px;
+  }
+
+  .home-titels {
+    margin: 8px;
+  }
+
+  .home-titels h1 {
+    font-size: 1.5em;
+    margin: 8px 0;
+  }
+
+  .home-search-bar {
+    width: 80vw;
+    padding: 6px 7px;
+  }
+
+  .home-search-bar-btn img {
+    height: 24px;
+  }
+
+  /* ---------------------------Feature Post---------------------- */
+  .feature {
+    margin: 20px 10px;
+  }
+
+  .feature-title {
+    padding: 10px 0;
+  }
+
+  /* ---------------------------Recent Post---------------------- */
+  .recent-post {
+    margin: 20px 10px;
+    width: calc(100% - 20px);
+  }
+
+  .recent-post-container {
+    grid-template-columns: auto auto;
+  }
+
+  .container-box {
+    margin: 15px 10px;
+    width: 95%;
+  }
+
+  /* ---------------------------Footer---------------------- */
+
+  .lower-footer {
+    height: 110px;
+  }
+
+  .last-footer {
+    margin: 8px;
+  }
+
+  .last-footer ul li {
+    padding: 8px;
+  }
+  .copyRihgt {
+    padding: 0;
+  }
+  .copyRihgt {
+    margin-bottom: 7px;
+  }
+}
+
+/* ---------------------------Media creen 500px---------------------- */
+@media only screen and (max-width: 500px) {
+
+  /* ---------------------------Header---------------------- */
+  .header {
+    padding: 0;
+  }
+
+  /* ---------------------------Logo---------------------- */
+
+  .logo {
+    margin: 6px;
+  }
+
+  .logo a img {
+    height: 35px;
+  }
+
+  /* ---------------------------Navigation Bar---------------------- */
+  .navBar {
+    padding: 0;
+  }
+
+  /* ---------------------------Home---------------------- */
+  .home-titels h1 {
+    font-size: 1.3em;
+  }
+
+  .home-search-bar {
+    width: 85vw;
+    padding-left: 7px;
+  }
+
+  .home-search-bar form input {
+    font-size: 1em;
+  }
+
+  /* ---------------------------Feature Post---------------------- */
+  .feature {
+    margin: 20px 5px;
+  }
+
+  .feature-title {
+    padding: 5px 0;
+  }
+
+  /* ---------------------------Recent Post---------------------- */
+  .recent-post {
+    margin: 20px 5px;
+    width: calc(100% - 10px);
+  }
+
+  .recent-post-container {
+    grid-template-columns: auto;
+  }
+
+  .container-box {
+    margin: 10px;
+    width: 95%;
+    justify-content: center;
+  }
+
+  /* ---------------------------Footer---------------------- */
+  .socialMidea-footer a img {
+    height: 28px;
+  }
+
+  .upper-footer {
+    padding: 0;
+  }
+
+  .upper-left-footer {
+    margin-left: 10px;
+  }
+
+  .lower-footer {
+    padding: 0;
+  }
+
+  .last-footer ul li {
+    padding: 8px 2px;
+  }
+}
+
+/* ---------------------------Media creen 350px---------------------- */
+@media only screen and (max-width: 350px) {
+  
+  /* ---------------------------Header---------------------- */
+  .logo {
+    margin: 4px;
+  }
+
+  .logo a img {
+    height: 30px;
+  }
+
+  .searchBar form input {
+    width: 45vw;
+  }
+
+  /* ---------------------------Home---------------------- */
+  .home-search-bar {
+    width: 88vw;
+    padding: 5px;
+  }
+
+  .home-search-bar-btn img {
+    height: 20px;
+  }
+
+  /* ---------------------------Footer---------------------- */
+
+  .upper-left-footer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .upper-left-footer-conatin {
+    margin: 0 10px;
+    text-align: center;
+  }
+
+  .upper-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    padding: 10px;
+  }
+
+  .lower-footer {
+    height: 150px;
+  }
+  .last-footer ul li {
+    padding: 7px 0;
+  }
+  .copyRihgt {
+    margin-bottom: 8px;
+  }
+}
